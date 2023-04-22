@@ -1,0 +1,321 @@
+@media only screen and (min-width: 2559px) {
+  /* Your large screen-specific styles here */
+  
+    .navbar__container {
+        display: grid;
+        place-items: center;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: 1fr 4fr 1fr;
+        margin-top: 3rem;
+        max-width: 1800px;
+        padding: 2rem;
+    }
+
+    .navbar__link--sec {
+        font-size: 3rem;
+    }
+
+    .header__content__section {
+        margin-left: 50rem;
+    }
+
+    .aboutus__warpper {
+        margin-right: 40rem;
+        max-width: 600px;
+    }
+
+    .section__food__order {
+        grid-template-columns: repeat(4 ,auto);
+    }
+}
+
+@media only screen and (min-width: 1536px){
+    .section__food__order {
+        grid-template-columns: repeat(4 ,auto);
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .aboutus__warpper {
+        max-width: 400px;
+    }
+
+    .section__food__order {
+        grid-template-columns: repeat(2 ,auto);
+    }
+
+    .section__snap__user {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        scroll-snap-type: x mandatory;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        gap: 20px;
+        padding: 1.5rem;
+        overflow-y: hidden;
+    }
+
+    .snap__card {
+        width: 350px;
+        height: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* Your mobile-specific styles here */
+  
+    .aboutus__warpper {
+        max-width: 400px;
+    }
+
+    .section__food__order {
+        grid-template-columns: repeat(2 ,auto);
+    }
+
+    .video__context {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .section__snap__user {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        scroll-snap-type: x mandatory;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        gap: 20px;
+        padding: 1.5rem;
+        overflow-y: hidden;
+    }
+
+    .snap__card {
+        width: 350px;
+        height: 400px;
+    }
+
+    .section__aboutus {
+        background-size: 50%;
+        background-position: left center;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+        .navbar__order{
+          display: none;
+    }
+
+    .navbar__hamburger {
+        display: flex;
+    }
+
+    .navbar__container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        padding: 2rem;
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .navbar__link--sec {
+        display: none;
+        position: fixed;
+        top: 10rem;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #fac515;
+        z-index: 5;
+    }
+
+    .navbar__link--active {
+        display: block;
+    }
+
+    .body__link {
+        overflow: hidden;
+        scroll-behavior: none;
+    }
+
+    .navbar__link--sec ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .navbar__link--sec ul li {
+        align-self: baseline;
+        margin-left: 3rem;
+    }
+
+    header__text {
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 3rem;
+        max-width: 250px;
+        margin-top: 2rem;
+    }
+
+    .header__content__section {
+        display: grid;
+        place-items: flex-start;
+        height: auto;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .header__text {
+        margin-left: 3rem;
+    }
+
+    .header__search--form {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+        border: 1px solid var(--lavendar-border);
+        border-radius: 0.2rem;
+        height: 40px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .search__form__right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100px;
+    }
+
+    .bi-facebook ,.bi-instagram,.bi-twitter {
+        font-size: 1rem;
+    }
+
+    .aboutus__warpper {
+        max-width: 300px;
+        height: auto;
+    }
+
+    .section__aboutus {
+        background-size: 30%;
+        background-position: left bottom;
+    }
+
+    .aboutus__para , .aboutus__para2 {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        padding: 1rem;
+        text-align: justify;
+    }
+
+    .section__food__order {
+        grid-template-columns: repeat(1 ,auto);
+    }
+
+    .video__context {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .contact__warppee {
+        flex-direction: column;
+    }
+
+    .footwarp {
+        flex-direction: column;
+    }
+
+    .foot__content {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .foot__lead {
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    .span__developer {
+        display: block;
+        margin-left: -2.5rem;
+    }
+
+    .section__cusine__warpper {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .sec__order__text {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+
+
+
+@media only screen and (max-width:375px) {
+    .sec__order__items {
+        max-width: 250px;
+        gap: 2rem;
+    }
+
+    .link__food {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .section__aboutus {
+        display: grid;
+        place-items: center;
+        background-size: 30%;
+        background-position: left bottom;
+        padding-top: 5rem;
+    }
+
+    .aboutus__warpper {
+        margin: 1rem;
+    }
+
+    .test__text {
+        font-size: 2rem;
+    }
+
+    .test__lead {
+        font-size: 1rem;
+    }
+
+    .snap__card {
+        width: 320px;
+        height: 400px;
+    }
+
+    .snap__test__content {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .header__text {
+        margin-left: 1rem;
+    }
+
+    .header__search--form{
+        margin-left: 1rem;
+    }
+    
+}
